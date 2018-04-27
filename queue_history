@@ -1,0 +1,1000 @@
+ 1178  make
+ 1179  clear
+ 1180  cd ..
+ 1181  cd -
+ 1182  git remote -v
+ 1183  cd ..
+ 1184  rm -rf pmdk-examples/
+ 1185  git clone https://github.com/pmem/pmdk-examples.git
+ 1186  cd pmdk-examples/
+ 1187  vi Makefile 
+ 1188  man make
+ 1189  clear
+ 1190  make -C mapreduce
+ 1191  cd mapreduce/
+ 1192  ls
+ 1193  vi README.md 
+ 1194  vi ../common.mk 
+ 1195  clear
+ 1196  vi README.md 
+ 1197  cd ~/pmdk
+ 1198  clear
+ 1199  ls
+ 1200  cd src
+ 1201  ls
+ 1202  clear
+ 1203  ls
+ 1204  cd examples/
+ 1205  ls
+ 1206  cd libpmemobj
+ 1207  ls
+ 1208  ./btree 
+ 1209  ./btree /mnt/mem/btree-file i 1 test
+ 1210  sudo ./btree /mnt/mem/btree-file i 1 test
+ 1211  sudo ./btree /mnt/mem/btree-file f 1 test
+ 1212  sudo ./btree /mnt/mem/btree-file f 1
+ 1213  sudo ./btree /mnt/mem/btree-file i 2 sample
+ 1214  sudo ./btree /mnt/mem/btree-file f 2
+ 1215  ndctl
+ 1216  daxctl
+ 1217  iofabric
+ 1218  ls
+ 1219  cd ..
+ 1220  ls
+ 1221  cd ..
+ 1222  ls
+ 1223  cd ..
+ 1224  ls
+ 1225  cd ..
+ 1226  ls
+ 1227  cd pmdk-examples/
+ 1228  ls
+ 1229  cd pmdk/
+ 1230  ls
+ 1231  cd ..
+ 1232  ls
+ 1233  cd cpp_queue/
+ 1234  ls
+ 1235  make
+ 1236  ls
+ 1237  ./cpp_queue 
+ 1238  cd /mnt/
+ 1239  ls
+ 1240  cd mem/
+ 1241  ls
+ 1242  cd ../..
+ 1243  s
+ 1244  ls
+ 1245  cd 
+ 1246  cd pmdk-examples/
+ 1247  ls
+ 1248  cd cpp_queue/
+ 1249  ls
+ 1250  ./cpp_queue p /mnt/mem/pqueue.pool push 1
+ 1251  ./cpp_queue p /mnt/mem/pqueue.pool show
+ 1252  cd ..
+ 1253  ls
+ 1254  cd ..
+ 1255  ls
+ 1256  cd ..
+ 1257  ls
+ 1258  cd ..
+ 1259  ls
+ 1260  cd lib
+ 1261  ls
+ 1262  cd ..
+ 1263  ls
+ 1264  cd
+ 1265  ls
+ 1266  cd pmdk
+ 1267  ls
+ 1268  cd src/
+ 1269  ls
+ 1270  cd libpmemobj/
+ 1271  ls
+ 1272  cd ..
+ 1273  ls
+ 1274  grep mypool.set *
+ 1275  ls
+ 1276  cd nondebug/
+ 1277  ls
+ 1278  cd ..
+ 1279  ls
+ 1280  pmempool 
+ 1281  pmempool info 
+ 1282  pmempool info ./pmemblk
+ 1283  pmempool info ./pmempool
+ 1284  cd .
+ 1285  cd ..
+ 1286  ls
+ 1287  cd 
+ 1288  ls
+ 1289  cd pmdk-examples/
+ 1290  ls
+ 1291  cd pmem_leak/
+ 1292  ls
+ 1293  make
+ 1294  ls
+ 1295  ./checker 
+ 1296  cd ..
+ 1297  ls
+ 1298  make
+ 1299  ls
+ 1300  cd simple_grep/
+ 1301  ls
+ 1302  make
+ 1303  ls
+ 1304  ./pmemgrep
+ 1305  ls
+ 1306  ./grep 
+ 1307  ./grep oi
+ 1308  ./grep oi .
+ 1309  ./grep oi /
+ 1310  cd ..
+ 1311  ls
+ 1312  cd ..
+ 1313  ls
+ 1314  cd cpp_queue/
+ 1315  ls
+ 1316  make clean
+ 1317  make
+ 1318  ls
+ 1319  ./cpp_queue 
+ 1320  make clean
+ 1321  make cpp_queue 
+ 1322  ./cpp_queue v /mnt/mem/pqueue.pool push 1
+ 1323  cd ../..
+ 1324  ls
+ 1325  cd pmdk
+ 1326  ls
+ 1327  cd 
+ 1328  cd /mnt/mem/
+ 1329  ls
+ 1330  cd
+ 1331  grep -rni "mypool.set" *
+ 1332  cd pmdk-examples/pmdk/
+ 1333  ls
+ 1334  cd doc/
+ 1335  ls
+ 1336  cd poolset/
+ 1337  ls
+ 1338  gdb
+ 1339  ls
+ 1340  cd ..
+ 1341  ls
+ 1342  cd ..
+ 1343  ls
+ 1344  cd ..
+ 1345  ls
+ 1346  cd cpp_queue/
+ 1347  ls
+ 1348  gdb cpp_queue 
+ 1349  ls
+ 1350  vi Makefile
+ 1351  ls
+ 1352  cd ..
+ 1353  ls
+ 1354  vi common.mk 
+ 1355  ls
+ 1356  make clean
+ 1357  ls
+ 1358  cd cpp_queue/
+ 1359  ls
+ 1360  make clean
+ 1361  make
+ 1362  ls
+ 1363  make clean
+ 1364  ls
+ 1365  make
+ 1366  gdb cpp_queue 
+ 1367  ls
+ 1368  make clean
+ 1369  make
+ 1370  gdb cpp_queue 
+ 1371  ./cpp_queue p /mnt/pmem/ push 1
+ 1372  pmempool
+ 1373  pmempool --version
+ 1374  pmempool -info
+ 1375  pmempool-info
+ 1376  pmempool --info 
+ 1377  pmempool -h
+ 1378  pmempool info
+ 1379  ./cpp_queue p /mnt/pmem/pqueue.pool push 1
+ 1380  ./cpp_queue v /mnt/pmem/pqueue.pool push 1
+ 1381  ./cpp_queue v /mnt/pmem push 1
+ 1382  ./cpp_queue v /mnt/pmem/pqueue.pool push 1
+ 1383  ls
+ 1384  le>
+ 1385  ./cpp_queue p /mnt/pmem/pqueue.pool push 1
+ 1386  ls
+ 1387  strace ./cpp_queue v /mnt/pmem/pqueue.pool push 1
+ 1388  clear
+ 1389  ls
+ 1390  screen -x cs
+ 1391  ls
+ 1392  sudo ./cpp_queue v /mnt/pmem/pqueue.pool push 1
+ 1393  man pmempool
+ 1394  cd /mnt/mem/
+ 1395  cd ..
+ 1396  ls -la
+ 1397  man pmempool
+ 1398  cd ..
+ 1399  cd ~
+ 1400  lsa
+ 1401  ls
+ 1402  pmempool-create
+ 1403  pmempool 
+ 1404  pmempool pmempool-create
+ 1405  pmempool create
+ 1406  pmempool create 10 xyz.txt
+ 1407  pmempool create log xyz.txt
+ 1408  ls
+ 1409  vi xyz.txt 
+ 1410  ls
+ 1411  rm xyz.txt 
+ 1412  ls
+ 1413  man pmempool
+ 1414  ls
+ 1415  sudo ./cpp_queue v /mnt/pmem/pqueue.pool push 1
+ 1416  cd pmdk-examples/
+ 1417  ls
+ 1418  cd cpp_queue/
+ 1419  sudo ./cpp_queue v /mnt/pmem/pqueue.pool push 1
+ 1420  strace ./cpp_queue v /mnt/pmem/pqueue.pool push 1
+ 1421  ls
+ 1422  strace ./cpp_queue v /mnt/pmem/pqueue.pool push 1 > temp.txt
+ 1423  vi temp.txt 
+ 1424  ls
+ 1425  strace ./cpp_queue v /mnt/pmem/pqueue.pool push 1 > temp.txt
+ 1426  vi temp.txt 
+ 1427  strace ./cpp_queue v /mnt/pmem/pqueue.pool push 1 > temp.txt
+ 1428  ls
+ 1429  strace ./cpp_queue v /mnt/pmem/pqueue.pool push 1 > temp.txt
+ 1430  vi temp.txt 
+ 1431  ls
+ 1432  vi main.cpp 
+ 1433  cd ..
+ 1434  ls
+ 1435  cd /mnt/mem
+ 1436  ls
+ 1437  touch pmem_pool
+ 1438  sudo touch pmem_pool
+ 1439  ls
+ 1440  chmod 777 pmem_pool 
+ 1441  sudi chmod 777 pmem_pool 
+ 1442  sudo chmod 777 pmem_pool 
+ 1443  ls
+ 1444  cd 
+ 1445  cd pmdk-examples/cpp_queue/
+ 1446  sudo ./cpp_queue v /mnt/pmem/pmem_pool push 1
+ 1447  sudo ./cpp_queue p /mnt/pmem/pmem_pool push 1
+ 1448  strace ./cpp_queue p /mnt/pmem/pmem_pool push 1
+ 1449  strace ./cpp_queue v /mnt/pmem/pqueue.pool push 1 2> temp.txt
+ 1450  vi temp.txt 
+ 1451  ls
+ 1452  gdb cpp_queue 
+ 1453  cd /mnt/mem
+ 1454  ls
+ 1455  rm pmem_pool 
+ 1456  sudo rm pmem_pool 
+ 1457  ls
+ 1458  cd 
+ 1459  ls
+ 1460  cd pmdk-examples/
+ 1461  ls
+ 1462  cd cpp_queue/
+ 1463  ls
+ 1464  ./cpp_queue p /mnt/pmem/pqueue.pool push 1
+ 1465  gdb cpp_queue 
+ 1466  ls
+ 1467  vi main.cpp 
+ 1468  ls
+ 1469  vi main.cpp 
+ 1470  ls
+ 1471  make clean
+ 1472  make
+ 1473  ./cpp_queue p /mnt/pmem/pqueue.pool push 1
+ 1474  vi main.cpp 
+ 1475  ls
+ 1476  make clean
+ 1477  make
+ 1478  ./cpp_queue p /mnt/pmem/pqueue.pool push 1
+ 1479  vi main.cpp 
+ 1480  ls
+ 1481  make clean
+ 1482  make
+ 1483  ./cpp_queue p /mnt/pmem/pqueue.pool push 1
+ 1484  cd ../
+ 1485  cd ..
+ 1486  ls
+ 1487  cd /mnt/mem
+ 1488  ls
+ 1489  ls -ls
+ 1490  cd ..
+ 1491  ls
+ 1492  ls 
+ 1493  ls -ls
+ 1494  ls
+ 1495  cd mem/
+ 1496  ls
+ 1497  rm btree-file 
+ 1498  sudo rm btree-file 
+ 1499  ls
+ 1500  cd 
+ 1501  cd pmdk-examples/
+ 1502  ls
+ 1503  cd cpp_queue/
+ 1504  ls
+ 1505  ./cpp_queue p /mnt/pmem/pqueue.pool push 1
+ 1506  cd ..
+ 1507  cd
+ 1508  ls
+ 1509  cd pmdk
+ 1510  ls
+ 1511  cd ..
+ 1512  ls
+ 1513  make uninstall 
+ 1514  cd pmdk
+ 1515  ls
+ 1516  make uninstall
+ 1517  sudo make uninstall
+ 1518  ls
+ 1519  cd ..
+ 1520  ls
+ 1521  cd pmdk
+ 1522  ls
+ 1523  cd ..
+ 1524  ls
+ 1525  rm pmdk
+ 1526  ls
+ 1527  rm -r pmdk
+ 1528  sudo rm -r pmdk
+ 1529  lss
+ 1530  ls
+ 1531  sudo rm -r ndctl
+ 1532  ls
+ 1533  cd ..
+ 1534  ls
+ 1535  cd ..
+ 1536  ls
+ 1537  cd pmdk/
+ 1538  ls
+ 1539  cd utils/
+ 1540  ls
+ 1541  cd docker/
+ 1542  ls
+ 1543  cd ..
+ 1544  ls
+ 1545  cd ..
+ 1546  ls
+ 1547  cd ..
+ 1548  ls
+ 1549  rm pmdk
+ 1550  ls
+ 1551  rm -r pmdk
+ 1552  sudo rm -r pmdk
+ 1553  ls
+ 1554  git clone https://github.com/pmem/pmdk
+ 1555  sudo git clone https://github.com/pmem/pmdk
+ 1556  ls
+ 1557  cd pmdk/
+ 1558  ls
+ 1559  make
+ 1560  sudo make
+ 1561  make install 
+ 1562  sudo make install 
+ 1563  ls
+ 1564  cd ..
+ 1565  ls
+ 1566  cd pmdk/
+ 1567  ls
+ 1568  make install
+ 1569  sudo make install
+ 1570  ls
+ 1571  cd res
+ 1572  ls
+ 1573  cd ..
+ 1574  ls 
+ 1575  cd src
+ 1576  ls
+ 1577  cd ..
+ 1578  ls
+ 1579  make check
+ 1580  sudo make check
+ 1581  ls
+ 1582  cd ..
+ 1583  ls
+ 1584  cd ..
+ 1585  ls
+ 1586  cd 
+ 1587  cd
+ 1588  ls
+ 1589  cd ..
+ 1590  ls
+ 1591  cd ..
+ 1592  ls
+ 1593  cd pmdk/
+ 1594  ls
+ 1595  cd utils/
+ 1596  ls
+ 1597  cd docker/
+ 1598  ls
+ 1599  cd ..
+ 1600  ls
+ 1601  cd ..
+ 1602  ls
+ 1603  cd utils/
+ 1604  ls
+ 1605  ./build-local.sh 
+ 1606  ls
+ 1607  cd docker/
+ 1608  ls
+ 1609  cd images/
+ 1610  ls
+ 1611  cd ..
+ 1612  ls
+ 1613  ./build-local.sh 
+ 1614  export OS=ubuntu
+ 1615  export OS_VER=16.04
+ 1616  ./build-local.sh 
+ 1617  ls
+ 1618  cd images
+ 1619  ls
+ 1620  cd ..
+ 1621  ls
+ 1622  vi build-local.sh 
+ 1623  ls
+ 1624  cd images/
+ 1625  ls
+ 1626  cd ..
+ 1627  ls
+ 1628  cd
+ 1629  clear
+ 1630  git clone https://github.com/pmem/pmdk-examples.git
+ 1631  cd pmdk-examples/
+ 1632  clear
+ 1633  ls
+ 1634  cd pmdk/
+ 1635  ls
+ 1636  cd ..
+ 1637  vi Makefile 
+ 1638  ls
+ 1639  cd mapreduce/
+ 1640  ls
+ 1641  make
+ 1642  ls
+ 1643  ls -lh wordcount 
+ 1644  file wordcount
+ 1645  ./wordcount 
+ 1646  ls
+ 1647  cd ..
+ 1648  ls
+ 1649  cd -
+ 1650  vi README.md 
+ 1651  cd
+ 1652  sudo mkdir /mnt/mem
+ 1653  sudo mkfs.ext4 /dev/pmem0m 
+ 1654  mount|grep mem
+ 1655  mount|grep pmem
+ 1656  sudo umount /dev/pmem0m
+ 1657  clear
+ 1658  sudo mount -o dax /dev/pmem0 /mnt/mem
+ 1659  sudo mount -o dax /dev/pmem0m /mnt/mem
+ 1660  mount|grep pmem
+ 1661  cd /mnt/mem/
+ 1662  ls
+ 1663  vi sample.txt
+ 1664  chmod 777 sample.txt
+ 1665  touch sample.txt
+ 1666  sudo touch sample.txt
+ 1667  sudo chmod 777 sample.txt 
+ 1668  vi sample.txt 
+ 1669  clear
+ 1670  cd ../..
+ 1671  cd
+ 1672  clear
+ 1673  ls
+ 1674  cd pmdk
+ 1675  ls
+ 1676  cd ..
+ 1677  cd pmdk-examples/
+ 1678  clear
+ 1679  cd mapreduce/
+ 1680  ls
+ 1681  vi README.md 
+ 1682  clear
+ 1683  cd ..
+ 1684  cd ../pmdk
+ 1685  clear
+ 1686  ls
+ 1687  cscope -R
+ 1688  sudo apt-get install -y cscope
+ 1689  cscope -R
+ 1690  clear
+ 1691  ls
+ 1692  cd src
+ 1693  ls
+ 1694  cd examples/
+ 1695  ls
+ 1696  cd libpmemobj
+ 1697  ls
+ 1698  vi README 
+ 1699  clear
+ 1700  ls
+ 1701  pwd
+ 1702  cd ../..
+ 1703  clear
+ 1704  cscope -d
+ 1705  ls
+ 1706  cd ..
+ 1707  ls
+ 1708  cscope --d
+ 1709  cscope -d
+ 1710  grep build-image -R .
+ 1711  cd utils/docker/
+ 1712  clear
+ 1713  ls
+ 1714  cd images/
+ 1715  ls
+ 1716  vi README 
+ 1717  clear
+ 1718  ls
+ 1719  vi build-image.sh 
+ 1720  cd ../../
+ 1721  cd ..
+ 1722  cd src
+ 1723  clear
+ 1724  cd
+ 1725  ls /pmdk
+ 1726  clear
+ 1727  man readlink
+ 1728  ls /pmdk
+ 1729  cd utils
+ 1730  ls
+ 1731  cd /pmdk
+ 1732  ls
+ 1733  cd utils/
+ 1734  ls
+ 1735  cd docker/
+ 1736  ls
+ 1737  pwd
+ 1738  cd ~/pmdk/src
+ 1739  clear
+ 1740  docker images
+ 1741  docker run -it ubuntu:16.04 /bin/bash
+ 1742  cd
+ 1743  cd proj_files/
+ 1744  pwd
+ 1745  cd /mnt/mem/
+ 1746  ls
+ 1747  dd if=/dev/zero of=/mnt/mem/PMEMFILE bs=1024 count=1024
+ 1748  sudo dd if=/dev/zero of=/mnt/mem/PMEMFILE bs=1024 count=1024
+ 1749  ls
+ 1750  ls -lh
+ 1751  rm PMEMFILE 
+ 1752  rm -f PMEMFILE 
+ 1753  sudo rm -f PMEMFILE 
+ 1754  cd 
+ 1755  sudo umount /mnt/mem
+ 1756  clear
+ 1757  sudo mkfs.ext4 /dev/pmem0m 
+ 1758  mount|grep pmem
+ 1759  sudo mount -o dax /dev/pmem0m /mnt/mem
+ 1760  ls -lh /mnt/mem
+ 1761  cd /mnt/mem
+ 1762  ls
+ 1763  cat btree-file 
+ 1764  clear
+ 1765  cd
+ 1766  clear
+ 1767  ls
+ 1768  cd pmdk
+ 1769  ls
+ 1770  cd utils/
+ 1771  ls
+ 1772  docker container ls --all
+ 1773  docker image ls
+ 1774  clear
+ 1775  ls
+ 1776  docker images
+ 1777  docker ps -a
+ 1778  docker ps
+ 1779  clear
+ 1780  ls
+ 1781  cd docker
+ 1782  ls
+ 1783  pwd
+ 1784  cd ..
+ 1785  ls
+ 1786  cd images
+ 1787  ls
+ 1788  cd docker/
+ 1789  cd images/
+ 1790  ls
+ 1791  vi Dockerfile.ubuntu-16.04 
+ 1792  docker run pmem/pmdk:ubuntu-16.04 
+ 1793  docker images
+ 1794  docker ps -a
+ 1795  docker ps
+ 1796  ls
+ 1797  vi Dockerfile.ubuntu-16.04 
+ 1798  ls
+ 1799  vi README 
+ 1800  docker exec -it /bin/bash 
+ 1801  docker ps -a
+ 1802  docker exec -it xenodochial_mayer /bin/bash
+ 1803  docker run -it pmem/pmdk
+ 1804  docker run -it pmem/pmdk:ubuntu-16.04 
+ 1805  ls
+ 1806  cd ..
+ 1807  ls
+ 1808  vi build-local.sh 
+ 1809  ./build-local.sh 
+ 1810  vi ~/.bashrc
+ 1811  source ~/.bashrc
+ 1812  clear
+ 1813  ls
+ 1814  ./build-local.sh 
+ 1815  docker images
+ 1816  cat /etc/*release*
+ 1817  clear
+ 1818  ls
+ 1819  ls c-d1 
+ 1820  cd images/
+ 1821  ls
+ 1822  vi build-image.sh 
+ 1823  cd ..
+ 1824  clear
+ 1825  ls
+ 1826  vi README 
+ 1827  docker images
+ 1828  cd images/
+ 1829  ls
+ 1830  vi Dockerfile.ubuntu-16.04 
+ 1831  ls -ltr
+ 1832  vim Dockerfile.ubuntu-16.04
+ 1833  ls -ltr
+ 1834  vim build-image.sh
+ 1835  ls -ltr
+ 1836  vim README
+ 1837  ls -ltr
+ 1838  vim Dockerfile.ubuntu-16.04
+ 1839  ls -ltr
+ 1840  vim build-image.sh
+ 1841  cd ..
+ 1842  ls -ltr
+ 1843  vim build-travis.sh
+ 1844  ls -ltr
+ 1845  vim build-local.sh
+ 1846  ls -ltr
+ 1847  vim README
+ 1848  sudo apt-get install -y jemalloc
+ 1849  sudo apt-get install -y jemalloc-dev
+ 1850  sudo apt-get install -y libjemalloc
+ 1851  sudo apt-get install -y libjemalloc-dev
+ 1852  clear
+ 1853  ls
+ 1854  ./build-local.sh 
+ 1855  cd /home/ranjansv/pmdk/src/
+ 1856  ls -ltr
+ 1857  cd jemalloc/src/
+ 1858  ls
+ 1859  cd ..
+ 1860  ls -ltr
+ 1861  cd jemalloc/
+ 1862  ls -ltr
+ 1863  vim configure
+ 1864  cd ..
+ 1865  ls
+ 1866  cd ..
+ 1867  ls
+ 1868  cd utils/docker/
+ 1869  ls
+ 1870  ./build-local.sh 
+ 1871  cd /pmdk/src/jemalloc
+ 1872  cd /home/ranjansv/pmdk/src/jemalloc/
+ 1873  ls -ltr
+ 1874  ./configure 
+ 1875  make
+ 1876  cd ../..
+ 1877  ls
+ 1878  cd utils/docker/
+ 1879  ls
+ 1880  ./build-local.sh 
+ 1881  cd /pmdk/src/jemalloc
+ 1882  cd ../../src/jemalloc/
+ 1883  make objroot=../nondebug/libvmem/jemalloc/ -f ../nondebug/libvmem/jemalloc/Makefile -C /pmdk/src/jemalloc all
+ 1884  make objroot=../nondebug/libvmem/jemalloc/ -f ../nondebug/libvmem/jemalloc/Makefile -C jemalloc all
+ 1885  make objroot=../nondebug/libvmem/jemalloc/ -f ../nondebug/libvmem/jemalloc/Makefile -C . all
+ 1886  pwd
+ 1887  cd ..
+ 1888  make objroot=../nondebug/libvmem/jemalloc/ -f ../nondebug/libvmem/jemalloc/Makefile -C pmdk/src/jemalloc all
+ 1889  cd 
+ 1890  cd pmdk/src/jemalloc
+ 1891  vi ../nondebug/libvmem/jemalloc/Makefile
+ 1892  ls -ltr
+ 1893  make clean
+ 1894  ls
+ 1895  make
+ 1896  cd ..
+ 1897  ls
+ 1898  cd ..
+ 1899  ls
+ 1900  cd utils/
+ 1901  cd docker/
+ 1902  ls
+ 1903  ./build-local.sh 
+ 1904  ls -ltr ..
+ 1905  cd ..
+ 1906  ls -ltr
+ 1907  cd ..
+ 1908  ls -ltr
+ 1909  cd pmdk
+ 1910  ls -ltr
+ 1911  find / -r "*nondebug*"
+ 1912  find / "*nondebug*"
+ 1913  find / -name "*nondebug*"
+ 1914  find . -name "*nondebug*"
+ 1915  ls -ltr
+ 1916  cd utils/docker/
+ 1917  ls -ltr
+ 1918  vim run-build.sh
+ 1919  ls -ltr
+ 1920  vim README
+ 1921  ls -ltr
+ 1922  ./build-travis.sh
+ 1923  vim build-local.sh
+ 1924  ls -ltr
+ 1925  vim prepare-for-build.sh
+ 1926  ls -ltr
+ 1927  cd images/
+ 1928  ls -ltr
+ 1929  vim build-image.sh
+ 1930  cd ..
+ 1931  ls -;tr
+ 1932  cd ..
+ 1933  ls -ltr
+ 1934  cd docker/
+ 1935  ls -ltr
+ 1936  vim build-local.sh
+ 1937  cd images/
+ 1938  ls -ltr
+ 1939  ./build-image.sh 
+ 1940  ./build-image.sh ubuntu-16.04
+ 1941  ./push-image.sh 
+ 1942  ./push-image.sh ubuntu-16.04
+ 1943  cd ..
+ 1944  ls -ltr
+ 1945  ./prepare-for-build.sh
+ 1946  pmem7
+ 1947  ls -ltr
+ 1948  sudo ./build-local.sh 
+ 1949  vim README
+ 1950  sudo ./build-local.sh 
+ 1951  OS
+ 1952  echo OS
+ 1953  echo $OS
+ 1954  echo $OS_VER
+ 1955  sudo OS=ubuntu
+ 1956  sudo export OS=ubuntu
+ 1957  sudo -E ./build-local.sh 
+ 1958  vim build-local.sh 
+ 1959  cd ..
+ 1960  cd src
+ 1961  ls -ltr
+ 1962  cd jemalloc/
+ 1963  make objroot=../nondebug/libvmem/jemalloc/ -f ../nondebug/libvmem/jemalloc/Makefile -C . all
+ 1964  cd ../nondebug/libvmem/jemalloc/
+ 1965  ls -ltr
+ 1966  vim Makefile
+ 1967  make objroot=. -f Makefile -C all
+ 1968  make objroot=. -f Makefile -C . all
+ 1969  cd ...
+ 1970  cd ../../../
+ 1971  cd ..
+ 1972  cd utils/docker/
+ 1973  ls -ltr
+ 1974  ./build-local.sh
+ 1975  cd images/
+ 1976  ls -ltr
+ 1977  vim build-image.sh
+ 1978  lear
+ 1979  clear
+ 1980  ls
+ 1981  cd ../../
+ 1982  cd ../src/jemalloc/
+ 1983  ls
+ 1984  vi Makefile
+ 1985  docker images
+ 1986  docker history
+ 1987  clear
+ 1988  ls
+ 1989  find . -name jemalloc.c
+ 1990  vi Makefile
+ 1991  vi .screenrc
+ 1992  screen -x cs
+ 1993  screen -d -m -S cs6675
+ 1994  screen -x cs
+ 1995  which vim
+ 1996  clear
+ 1997  ls
+ 1998  cd pmdk
+ 1999  clear
+ 2000  ls
+ 2001  cd src
+ 2002  ls
+ 2003  cd libvmem/
+ 2004  ls
+ 2005  cd ../../utils/docker/
+ 2006  vi build-local.sh 
+ 2007  vi run-build.sh 
+ 2008  vi prepare-for-build.sh 
+ 2009  docker run
+ 2010  docker run -h
+ 2011  cd
+ 2012  man docker run
+ 2013  clea
+ 2014  clear
+ 2015  docker ps 
+ 2016  clear
+ 2017  cd pmdk
+ 2018  ls
+ 2019  find . -name '*.d'|xargs grep ranjansv
+ 2020  find . -name '*.d'
+ 2021* find . -name '*.d'
+ 2022  vi ./src/debug/libvmem/jemalloc/test/unit/tsd.d
+ 2023  clear
+ 2024  ls
+ 2025  cd ..
+ 2026  ls
+ 2027  screen -x cs
+ 2028  s
+ 2029  ls
+ 2030  cd pmdk-examples/
+ 2031  ls
+ 2032  cd cpp_queue/
+ 2033  ls
+ 2034  make clean
+ 2035  make
+ 2036  ./cpp_queue p /mnt/pmem/pqueue.pool push 1
+ 2037  ./cpp_queue p /mnt/mem/pqueue.pool push 1
+ 2038  cd /mnt/mem/
+ 2039  ls
+ 2040  cd
+ 2041  cd pmdk-examples/cpp_queue/
+ 2042  ls
+ 2043  make clean
+ 2044  ls
+ 2045  ./cpp_queue p /mnt/mem/queue-pool push 1
+ 2046  ls
+ 2047  make
+ 2048  ./cpp_queue p /mnt/mem/queue-pool push 1
+ 2049  ls
+ 2050  cd ..
+ 2051  ls
+ 2052  cd pmdk
+ 2053  ls
+ 2054  cd res
+ 2055  ls
+ 2056  cd ..
+ 2057  ls
+ 2058  cd src
+ 2059  ls
+ 2060  cd libpmemobj/
+ 2061  ls
+ 2062  cd ..
+ 2063  ls
+ 2064  cd ..
+ 2065  ls
+ 2066  cd ..
+ 2067  ls
+ 2068  cd ..
+ 2069  ls
+ 2070  cd ..
+ 2071  ls
+ 2072  cd ..
+ 2073  ls
+ 2074  cd 
+ 2075  ls
+ 2076  cd pmdk-examples/
+ 2077  ls
+ 2078  $(HOME)
+ 2079  ls
+ 2080  vi common.mk 
+ 2081  ls
+ 2082  make
+ 2083  make clean
+ 2084  ls
+ 2085  cd cpp-queue
+ 2086  cd cpp_queue/
+ 2087  ls
+ 2088  make clean
+ 2089  make
+ 2090  make clean
+ 2091  la
+ 2092  make 
+ 2093  ls
+ 2094  ./cpp_queue p /mnt/mem/queue-pool push 1
+ 2095  ls
+ 2096  make clean
+ 2097  make
+ 2098  cd ..
+ 2099  ls
+ 2100  vi Makefile 
+ 2101  ls
+ 2102  vi common.mk 
+ 2103  ls
+ 2104  vi cpp_queue/
+ 2105  ls
+ 2106  cd cpp_queue/
+ 2107  ls
+ 2108  ./cpp_queue p /mnt/mem/pqueue.pool push 1
+ 2109  cd /mnt/mem
+ 2110  ls
+ 2111  rm queue-pool 
+ 2112  sudo rm queue-pool 
+ 2113  ls
+ 2114  cd ~/pmdk-examples/
+ 2115  ls
+ 2116  cd simple_grep/
+ 2117  ls
+ 2118  make clean
+ 2119  make
+ 2120  ls
+ 2121  make simple-grep
+ 2122  cd ..
+ 2123  ls
+ 2124  make simple_grep 
+ 2125  ls
+ 2126  cd simple_grep/
+ 2127  ls
+ 2128  cd grep/
+ 2129  ls
+ 2130  ./grep int grep.cpp
+ 2131  cd ..
+ 2132  ls
+ 2133  cd pmemgrep
+ 2134  ls
+ 2135  ./pmemgrep /mnt/mem/grep.pool int pmemgrep.cpp
+ 2136  ls
+ 2137  cd
+ 2138  ls
+ 2139  cd src/
+ 2140  ls
+ 2141  cd examples/
+ 2142  ls
+ 2143  cd libpmemobj
+ 2144  ls
+ 2145  cd linkedlist/
+ 2146  ls
+ 2147  ./fifo /mnt/mem/pool_file insert a
+ 2148  sudo ./fifo /mnt/mem/pool_file insert a
+ 2149  sudo ./fifo /mnt/mem/pool_file print
+ 2150  sudo ./fifo /mnt/mem/pool_file insert b
+ 2151  sudo ./fifo /mnt/mem/pool_file print
+ 2152  sudo ./fifo /mnt/mem/pool_file remove
+ 2153  sudo ./fifo /mnt/mem/pool_file print
+ 2154  ls
+ 2155  cd ..
+ 2156  ls
+ 2157  cd ..
+ 2158  ls
+ 2159  cd libpmemobj++
+ 2160  ls
+ 2161  cd queue/
+ 2162  ls
+ 2163  ./queue p /mnt/mem/pqueue.pool push 1
+ 2164  make clean
+ 2165  ls
+ 2166  make
+ 2167  ls
+ 2168  rm p
+ 2169  ls
+ 2170  ./queue 
+ 2171  ./queue pool push 1
+ 2172  ./queue pool show
+ 2173  ./queue pool push 2
+ 2174  ./queue pool show
+ 2175  ./queue pool pop
+ 2176  ls
+ 2177  history > ~/queue_history

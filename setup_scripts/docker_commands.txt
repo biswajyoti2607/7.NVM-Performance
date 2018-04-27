@@ -1,0 +1,6 @@
+Docker RUN: docker run -ti -u root --privileged pmem/pmdk:ubuntu-16.04
+Docker List running containers: docker ps
+Docker List images: docker images
+Docker Find where it is running and storage driver used: docker info
+Docker COPY (from host to container): docker cp /path/to/file/or/dir container_id:/path/to/dir/
+Docker COPY (from container to host): docker cp container_id:/path/to/file/or/dir /path/to/dir

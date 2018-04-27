@@ -1,0 +1,56 @@
+Path:       /mnt/mem/pmemkv_db
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+------------------------------------------------
+removed      :       0.007 millis/op;
+open         :     344.258 millis/op;
+fillseq      :      31.953 micros/op;    3.5 MB/s
+Path:       /mnt/mem/pmemkv_db
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+------------------------------------------------
+open         :     343.207 millis/op;
+readseq      :       0.613 micros/op;  180.3 MB/s (1000000 of 1000000 found)
+Path:       /mnt/mem/pmemkv_db
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+------------------------------------------------
+open         :     344.390 millis/op;
+deleteseq    :      17.127 micros/op;
+Path:       /mnt/mem/pmemkv_db
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+------------------------------------------------
+removed      :       0.007 millis/op;
+open         :     168.493 millis/op;
+fillrandom   :      29.566 micros/op;    3.7 MB/s
+Path:       /mnt/mem/pmemkv_db
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+------------------------------------------------
+open         :     256.802 millis/op;
+readrandom   :       1.237 micros/op;   89.4 MB/s (1000000 of 1000000 found)
+Path:       /mnt/mem/pmemkv_db
+Engine:     kvtree
+Keys:       16 bytes each
+Values:     100 bytes each
+Entries:    1000000
+RawSize:    110.6 MB (estimated)
+------------------------------------------------
+open         :     256.333 millis/op;
+deleterandom :      11.379 micros/op;
