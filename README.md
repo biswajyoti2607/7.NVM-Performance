@@ -1,5 +1,12 @@
 # NVM-Performance
 
+### CS 6675 Class Project (Group 7)
+Group Members -
+- Krishna Kumar Ramachandran <krishnakumar@gatech.edu>
+- Sanjeev Rao <sanjeevrao@gatech.edu>
+- Ranjan Venkatesh Sarpangala <ranjansv@gatech.edu>
+- Biswajyoti Pal <biswajyoti@gatech.edu>
+
 ### Scripts for setting up Ext4 DAX and Docker
 - Install ext4 filesystem with DAX
 ```
