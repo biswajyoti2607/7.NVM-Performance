@@ -1,0 +1,483 @@
+execve("./cpp_queue", ["./cpp_queue", "v", "/mnt/pmem/pqueue.pool", "push", "1"], [/* 24 vars */]) = 0
+brk(NULL)                               = 0x22a1000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=102324, ...}) = 0
+mmap(NULL, 102324, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7759042000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libpmemobj.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000Z\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=283424, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7759041000
+mmap(NULL, 2330952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7758bfc000
+mprotect(0x7f7758c32000, 2097152, PROT_NONE) = 0
+mmap(0x7f7758e32000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x36000) = 0x7f7758e32000
+mmap(0x7f7758e34000, 4424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7758e34000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f775887a000
+mprotect(0x7f77589ec000, 2097152, PROT_NONE) = 0
+mmap(0x7f7758bec000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7f7758bec000
+mmap(0x7f7758bf8000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7758bf8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7758664000
+mprotect(0x7f775867a000, 2093056, PROT_NONE) = 0
+mmap(0x7f7758879000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f7758879000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7759040000
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f775829a000
+mprotect(0x7f775845a000, 2097152, PROT_NONE) = 0
+mmap(0x7f775865a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f775865a000
+mmap(0x7f7758660000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7758660000
+close(3)                                = 0
+open("/usr/local/lib/tls/x86_64/libpmem.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/tls/x86_64", 0x7ffe96f7a0b0) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/tls/libpmem.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/tls", 0x7ffe96f7a0b0) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/x86_64/libpmem.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/x86_64", 0x7ffe96f7a0b0) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib/libpmem.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3400\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=214856, ...}) = 0
+mmap(NULL, 2283184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f775806c000
+mprotect(0x7f7758099000, 2093056, PROT_NONE) = 0
+mmap(0x7f7758298000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c000) = 0x7f7758298000
+close(3)                                = 0
+open("/usr/local/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7757e68000
+mprotect(0x7f7757e6b000, 2093056, PROT_NONE) = 0
+mmap(0x7f775806a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f775806a000
+close(3)                                = 0
+open("/usr/local/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f775903f000
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7757c4b000
+mprotect(0x7f7757c63000, 2093056, PROT_NONE) = 0
+mmap(0x7f7757e62000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f7757e62000
+mmap(0x7f7757e64000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7757e64000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7757942000
+mprotect(0x7f7757a4a000, 2093056, PROT_NONE) = 0
+mmap(0x7f7757c49000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f7757c49000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f775903e000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f775903d000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f775903b000
+arch_prctl(ARCH_SET_FS, 0x7f775903b780) = 0
+mprotect(0x7f775865a000, 16384, PROT_READ) = 0
+mprotect(0x7f7757c49000, 4096, PROT_READ) = 0
+mprotect(0x7f7757e62000, 4096, PROT_READ) = 0
+mprotect(0x7f775806a000, 4096, PROT_READ) = 0
+mprotect(0x7f7758298000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f775903a000
+mprotect(0x7f7758bec000, 40960, PROT_READ) = 0
+mprotect(0x7f7758e32000, 4096, PROT_READ) = 0
+mprotect(0x607000, 4096, PROT_READ)     = 0
+mprotect(0x7f775905b000, 4096, PROT_READ) = 0
+munmap(0x7f7759042000, 102324)          = 0
+set_tid_address(0x7f775903ba50)         = 4099
+set_robust_list(0x7f775903ba60, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f7757c50b50, [], SA_RESTORER|SA_SIGINFO, 0x7f7757c5c390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f7757c50be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f7757c5c390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+futex(0x7f7758299610, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat("/sys/bus/nd/devices", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+brk(NULL)                               = 0x22a1000
+brk(0x22c2000)                          = 0x22c2000
+stat("/sys/bus/nd/devices", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+open(".", O_RDONLY)                     = 3
+fchdir(3)                               = 0
+open("/sys/bus/nd/devices", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(4, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(4)                               = 0
+getdents(4, /* 6 entries */, 32768)     = 176
+lstat("region0", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("btt0.0", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("namespace0.0", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("pfn0.0", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/sys/bus/nd/devices/region0", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+open(".", O_RDONLY)                     = 4
+fchdir(4)                               = 0
+open("/sys/bus/nd/devices/region0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 19 entries */, 32768)    = 600
+lstat("size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("pfn_seed", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("devtype", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("power", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("modalias", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("btt0.0", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("mappings", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("init_namespaces", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("driver", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("namespace_seed", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("namespace0.0", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("subsystem", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("nstype", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("pfn0.0", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("btt_seed", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("read_only", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("power", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 11 entries */, 32768)    = 400
+lstat("control", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("async", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_enabled", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_kids", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("autosuspend_delay_ms", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_status", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_usage", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_suspended_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("btt0.0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 11 entries */, 32768)    = 328
+lstat("uuid", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("sector_size", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("devtype", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("power", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("modalias", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("subsystem", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("numa_node", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("namespace", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("power", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 11 entries */, 32768)    = 400
+lstat("control", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("async", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_enabled", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_kids", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("autosuspend_delay_ms", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_status", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_usage", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_suspended_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("namespace0.0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 15 entries */, 32768)    = 456
+lstat("size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("devtype", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("block", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("power", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("resource", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("modalias", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("force_raw", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("driver", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("holder", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("subsystem", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("nstype", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("numa_node", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("block", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 3 entries */, 32768)     = 80
+lstat("pmem0m", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("pmem0m", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 23 entries */, 32768)    = 696
+lstat("ro", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("bdi", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("dev", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("stat", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("power", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("range", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("queue", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("trace", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("discard_alignment", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("device", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("subsystem", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("ext_range", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("slaves", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("alignment_offset", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("holders", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("inflight", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("removable", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("integrity", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("capability", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("power", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 11 entries */, 32768)    = 400
+lstat("control", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("async", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_enabled", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_kids", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("autosuspend_delay_ms", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_status", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_usage", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_suspended_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("queue", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 26 entries */, 32768)    = 944
+lstat("nomerges", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("logical_block_size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("rq_affinity", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("discard_zeroes_data", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("max_segments", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("max_segment_size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("rotational", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("scheduler", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("read_ahead_kb", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("max_hw_sectors_kb", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("discard_granularity", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("discard_max_bytes", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("discard_max_hw_bytes", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("write_same_max_bytes", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("max_integrity_segments", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("max_sectors_kb", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("physical_block_size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("add_random", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("nr_requests", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("minimum_io_size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("hw_sector_size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("optimal_io_size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("io_poll", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("iostats", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("trace", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 7 entries */, 32768)     = 200
+lstat("pid", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("end_lba", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("enable", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("act_mask", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("start_lba", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("slaves", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 2 entries */, 32768)     = 48
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("holders", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 2 entries */, 32768)     = 48
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("integrity", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 8 entries */, 32768)     = 280
+lstat("write_generate", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("read_verify", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("device_is_integrity_capable", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("format", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("protection_interval_bytes", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("tag_size", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("power", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 11 entries */, 32768)    = 400
+lstat("control", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("async", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_enabled", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_kids", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("autosuspend_delay_ms", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_status", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_usage", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_suspended_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("pfn0.0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 11 entries */, 32768)    = 320
+lstat("mode", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("uuid", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("devtype", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("power", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("modalias", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("subsystem", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+lstat("uevent", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("numa_node", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("namespace", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("power", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+getdents(5, /* 11 entries */, 32768)    = 400
+lstat("control", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("async", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_enabled", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_kids", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_active_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("autosuspend_delay_ms", {st_mode=S_IFREG|0644, st_size=4096, ...}) = 0
+lstat("runtime_status", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_usage", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+lstat("runtime_suspended_time", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+open("..", O_RDONLY)                    = 5
+fstat(5, {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+fchdir(5)                               = 0
+close(5)                                = 0
+fchdir(4)                               = 0
+fchdir(4)                               = 0
+close(4)                                = 0
+fchdir(3)                               = 0
+close(3)                                = 0
+futex(0x7f7758e33a50, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7758bf91ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7758bf91b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/mnt/pmem/pqueue.pool", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/mnt/pmem/pqueue.pool", F_OK)   = -1 ENOENT (No such file or directory)
+open("/mnt/pmem/pqueue.pool", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/mnt/pmem/pqueue.pool", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/proc/sys/kernel/random/uuid", O_RDONLY) = 3
+read(3, "29606383-dfc7-4ae7-9ea1-ce98a4ba"..., 37) = 37
+close(3)                                = 0
+open("/proc/sys/kernel/random/uuid", O_RDONLY) = 3
+read(3, "eb8e95c7-8fb0-4c7e-b83a-2c5bb45b"..., 37) = 37
+close(3)                                = 0
+access("/mnt/pmem/pqueue.pool", F_OK)   = -1 ENOENT (No such file or directory)
+open("/mnt/pmem/pqueue.pool", O_RDWR|O_CREAT|O_EXCL, 0) = -1 ENOENT (No such file or directory)
+futex(0x7f7758879680, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+write(2, "terminate called after throwing "..., 48terminate called after throwing an instance of ') = 48
+write(2, "pmem::pool_error", 16pmem::pool_error)        = 16
+write(2, "'\n", 2'
+)                      = 2
+write(2, "  what():  ", 11  what():  )             = 11
+write(2, "Failed creating pool", 20Failed creating pool)    = 20
+write(2, "\n", 1
+)                       = 1
+rt_sigprocmask(SIG_UNBLOCK, [ABRT], NULL, 8) = 0
+tgkill(4099, 4099, SIGABRT)             = 0
+--- SIGABRT {si_signo=SIGABRT, si_code=SI_TKILL, si_pid=4099, si_uid=1000} ---
++++ killed by SIGABRT (core dumped) +++
